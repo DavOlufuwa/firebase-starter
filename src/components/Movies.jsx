@@ -56,7 +56,7 @@ const Movies = () => {
     try {
       const fileRef = ref(storage, `${fileUpload.name}`)
       await uploadBytes(fileRef, fileUpload)
-      enqueueSnackbar("File uploaded Successfully", { variant: "success" , autoHideDuration: 1000 })
+      enqueueSnackbar("File uploaded Successfullyyy", { variant: "success" , autoHideDuration: 1000 })
     } catch (error) {
       enqueueSnackbar("There was an error uploading the image", { variant: "error" , autoHideDuration: 5000 })
     }
